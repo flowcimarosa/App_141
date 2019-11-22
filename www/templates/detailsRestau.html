@@ -1,0 +1,45 @@
+<ion-view ng-controller="DetailsRestauCtrl" class="backgroundBody">
+  <ion-nav-title>{{details.name}}</ion-nav-title>
+  <ion-content class="backgroundBody">
+    <img ng-if="!details.photos[0].photo_reference ? img = 'img/icon.png' : img = 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference='+details.photos[0].photo_reference+'&key=AIzaSyAbBnTg2C8wC_cclHY4U1AGIYVIOJMDveY' " src="{{img}}" class="imgDetails">
+    <div class="row detailsRestau" id="">
+      <div class="col" ng-bind-html="details.adr_address"></div>
+    </div>
+    <div class="row detailsRestau">
+      <div class="col">
+        <span class="ion-earth"> : </span><a href="{{details.website}}">{{details.website}}</a>
+      </div>
+    </div>
+    <div class="row detailsRestau">
+      <div class="col">
+        <span class="ion-ios-telephone"> : </span><a href="{{'tel:'+details.international_phone_number}}">{{details.international_phone_number}}</a>
+      </div>
+    </div>
+    <div class="row detailsRestau">
+      <div class="col col-20" id="openClose" ng-if="result.opening_hours ? openClose = 'Fermé' : openClose = 'Ouvert'">
+        {{openClose}}
+      </div>
+      <div class="col col-80">
+        <p ng-repeat="(key, val) in details.opening_hours.weekday_text">{{val}}</p>
+      </div>
+    </div>
+    <ion-list>
+      <div class="item item-divider">
+        Notes : {{details.rating}}/5
+      </div>
+      <a class="item item-thumbnail-left" ng-repeat="review in details.reviews">
+        <img class="profilePhoto" src="{{review.profile_photo_url}}">
+        <h2>{{review.author_name}}</h2>
+        <p class="textReview">{{review.text}}</p>
+        <div class="row relativeTimeRating">
+          <div class="col col-50">
+            <p class="reviewRating">Note : {{review.rating}}/5</p>
+          </div>
+          <div class="col col-50">
+            <p class="relativeTimeReview">{{review.relative_time_description}}</p>
+          </div>
+        </div>
+      </a>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view class="backgroundBody" view-title="Inscription">
+  <ion-content ng-controller="SignupCtrl">
+    <div class="list topSignIn">
+      <label class="item item-input">
+        <input type="text" ng-model="user.displayName" placeholder="Prénom et Nom*" required/>
+      </label>
+      <label class="item item-input">
+        <input type="text" ng-model="user.email" placeholder="Email*" required/>
+      </label>
+      <label class="item item-input">
+        <input type="text" ng-model="user.password" placeholder="Mot de passe*" required/>
+      </label>
+      <label class="item item-input">
+        <input type="password" id="signUpPasswordConfirm" ng-model="user.password" placeholder="Confirmer votre mot de passe*" required/>
+      </label>
+    </div>
+    <button class="button button-block button-dark" ng-click="signUpEmail(user)" ng-disabled="user.password == null || user.displayName == null || user.password == null">S'inscrire</button>
+
+  </ion-content>
+</ion-view>

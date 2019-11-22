@@ -1,0 +1,22 @@
+<ion-view class="backgroundBody" view-title="Piloter les salles">
+  <ion-content ng-controller="ControlCtrl">
+      <ion-list id="accueuil">
+        <div class="item item-divider listManual" ng-click="showSubMenu1()">
+          Etage 1<span class="ion-plus-round" ng-if="!isShowSubMenu1"></span><span ng-if="isShowSubMenu1" class="ion-minus-round"></span>
+        </div>
+        <span ng-repeat=" y in beacons | filter:{etage: 1}:true | orderBy: 'name'">
+            <a class="item" ng-href="#/141/{{y.state}}" ng-if="isShowSubMenu1">
+              {{y.name}}
+            </a>
+          </span>
+        <div class="item item-divider listManual" ng-click="showSubMenu2()">
+          Etage 2<span class="ion-plus-round" ng-if="!isShowSubMenu2"></span><span ng-if="isShowSubMenu2" class="ion-minus-round"></span>
+        </div>
+        <span ng-repeat=" z in beacons | filter:{etage: 2}:true | orderBy: 'name'">
+            <a class="item" ng-href="#/141/{{z.state}}" ng-if="isShowSubMenu2">
+              {{z.name}}
+            </a>
+          </span>
+      </ion-list>
+  </ion-content>
+</ion-view>

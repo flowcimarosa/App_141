@@ -1,0 +1,21 @@
+<ion-view class="backgroundBody" view-title="Se connecter">
+  <ion-content ng-controller="SigninCtrl">
+    <img src="img/icon.png" id="logoHome">
+    <div class="list list-inset" onload="checkAuth()">
+      <label class="item item-input">
+        <input type="text" placeholder="Email" name="loginEmail" ng-model="user.email">
+      </label>
+      <label class="item item-input">
+        <input type="password" placeholder="Mot de passe" name="loginPassword" ng-model="user.password">
+      </label>
+    </div>
+    <div class="row topPasswordForget">
+      <div ng-click="resetPassword(user.email)" class="col col-offset-10 col-40" ng-disabled="!user.email">Mot de passe oublié ?</div>
+      <a href="#/141/signup" class="col col-offset-20 col-30">S'inscrire</a>
+    </div>
+    <div class="row" id="buttonConnexion">
+      <button class="button button-block button-dark col col-45" ng-click="signInEmail(user)" ng-disabled="!user.email || !user.password">Connexion</button>
+      <button class="button button-block button-dark col col-45" ng-click="signInGuest()">Invité</button>
+    </div>
+  </ion-content>
+</ion-view>

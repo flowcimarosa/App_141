@@ -1,0 +1,16 @@
+<ion-view class="backgroundBody" view-title="Controlle de la salle">
+  <ion-content ng-controller="ControlEst1C11Ctrl">
+    <div id="loader">
+      <ion-spinner icon="ios"></ion-spinner>
+    </div>
+    <iframe src="{{ouest2f04}}" frameborder="0" id="iframe"></iframe>
+    <div class="card" ng-show="iframe === 2">
+      <div class="item item-divider">
+        Problème de chargement de la salle
+      </div>
+      <div class="item item-text-wrap">
+        Veuillez vérifier si vous êtes connecté au WIFI du batîment, ou contacter le support pour ouvrir un ticket.
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,57 @@
+<ion-side-menus enable-menu-with-back-views="true">
+  <ion-side-menu-content class="backgroundBody">
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons id="removeClass" side="right">
+        <button class="button button-icon button-clear ion-navicon" id="removeHide" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" title="{{title}}"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right">
+    <ion-content>
+      <ion-list ng-controller="ConnectCtrl" >
+        <ion-item ng-hide="p !== 'Déconnection'">
+          <img src="img/user.png" class="col col-90 sizeUser">
+          <h2 class="titleWelcome">Bievenue {{ n }} </h2>
+          <p class="titleWelcome">Vous êtes {{ collaborateur }}</p>
+          <div ng-click="signOut()" class="ion-unlocked" menu-close> {{p}}</div>
+        </ion-item>
+        <ion-item menu-close href="#/141/{{url}}" ng-if="p !== 'Déconnection' ? url = 'signin' : url = 'connect'">
+          Accueil
+        </ion-item>
+        <ion-item menu-close href="#/141/resasalle">
+          Salles disponibles
+        </ion-item>
+        <ion-item menu-close href="#/141/manual">
+          Mode d'emploi
+        </ion-item>
+        <ion-item menu-close href="#/141/control">
+          Piloter les salles
+        </ion-item>
+        <ion-item class="submenu" ng-click="showSubMenu()">
+          Commodités & Transports <span class="ion-plus-round" ng-if="!isShowSubMenu"></span><span ng-if="isShowSubMenu" class="ion-minus-round"></span>
+          <ul ng-if="isShowSubMenu">
+            <li id="linkPadding1">
+              <a menu-close href="#/141/commodites">Commodités</a>
+            </li>
+            <li id="linkPadding2">
+              <a menu-close href="#/141/transports">Transports</a>
+            </li>
+          </ul>
+        </ion-item>
+      </ion-list>
+      <ion-item menu-close href="#/141/news">
+        Actualités
+      </ion-item>
+      <ion-item menu-close href="#/141/contactUs">
+        Nous contacter
+      </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

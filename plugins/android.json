@@ -1,0 +1,46 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.unarin.cordova.beacon": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-ms-azure-mobile-apps": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "fr.videliolab.app"
+    }
+  }
+}

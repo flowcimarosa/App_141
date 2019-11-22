@@ -1,0 +1,16 @@
+<ion-view class="backgroundBody" view-title="Pilotage de la salle">
+  <ion-content ng-controller="ControlEst1C11Ctrl">
+    <div id="loader">
+      <ion-spinner icon="ios"></ion-spinner>
+    </div>
+    <iframe src="http://10.1.2.5/magicmenu?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVhYTcwZWQwYWMwNmVmMDA0ZTdmMmM2MSIsInVzZXJuYW1lIjoiYXBwbGkxNDEiLCJuYW1lIjoiVXNlckFwcGxpMTQxIiwicm9sZXMiOlt7ImlkIjoiRGVtbyIsIm5hbWUiOiJEZW1vIiwiYWx0bmFtZSI6IkRlbW8iLCJocmNfYWNjZXNzX3JpZ2h0cyI6MCwiaHJjX2FsYXJtc19yaWdodHMiOjAsInJvbGVfaWQiOiJEZW1vIn0seyJpZCI6IkZ1bGwiLCJuYW1lIjoiRnVsbCIsImhyY19hY2Nlc3NfcmlnaHRzIjoyMCwiaHJjX2FsYXJtc19yaWdodHMiOjIwLCJyb2xlX2lkIjoiRnVsbCJ9LHsiaWQiOiJTYWxsZU1hcnNlaWxsZSIsIm5hbWUiOiJTYWxsZU1hcnNlaWxsZSIsImhyY19hY2Nlc3NfcmlnaHRzIjoxMCwiaHJjX2FsYXJtc19yaWdodHMiOjEwLCJyb2xlX2lkIjoiU2FsbGVNYXJzZWlsbGUifV19.5A3ITTwt_sv0Bv_hrAlGn4Kbp_qEn9yi2x2UzlN8Pno&point=RoomOuest1F01&home=common+room" frameborder="0" id="iframe"></iframe>
+    <div class="card" ng-show="iframe === 2">
+      <div class="item item-divider">
+        Problème de chargement de la salle
+      </div>
+      <div class="item item-text-wrap">
+        Veuillez vérifier si vous êtes connecté au WIFI du batîment, ou contacter le support pour ouvrir un ticket.
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

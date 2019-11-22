@@ -1,0 +1,21 @@
+<ion-view class="" view-title="Transports">
+  <ion-content ng-controller="TransportsCtrl">
+    <ion-list>
+      <div class="item item-divider"><h2>Transports en communs</h2></div>
+      <div class="choice">
+        <ion-checkbox id="bus" ng-model="testCheck" type="checkbox" ng-checked="testCheck === true" ng-change="filterBus()">BUS</ion-checkbox>
+        <ion-checkbox id="rer" ng-model="testCheck1" type="checkbox" ng-checked="testCheck1 === true" ng-change="filterRer()">RER</ion-checkbox>
+      </div>
+      <div id="map"></div>
+      <div class="item item-divider"><h2>Chauffeurs</h2></div>
+      <a href="https://m.uber.com/ul/?client_id=<CLIENT_ID>" class="item uber">
+        <img src="img/uber.jpg" alt="" class="">
+        <div class="">Ride here with Uber</div>
+      </a>
+      <a href="http://g7.fr/app-taxi" class="item g7">
+        <img src="img/g7Taxis.png" alt="">
+        <div>Commander avec G7 Taxi</div>
+      </a>
+    </ion-list>
+  </ion-content>
+</ion-view>

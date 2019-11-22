@@ -1,0 +1,23 @@
+<ion-view class="backgroundBody" view-title="Mode D'Emploi">
+  <ion-content>
+      <ion-list id="accueuil">
+        <div class="item item-divider listManual" ng-click="showSubMenu0()">
+          Salles<span class="ion-plus-round" ng-if="!isShowSubMenu0"></span><span ng-if="isShowSubMenu0" class="ion-minus-round"></span>
+        </div>
+        <a href="#/141/parenthese" class="item parenthese" ng-if="isShowSubMenu0">Espace parenthèse</a>
+        <a href="#/141/studiovideo" class="item c15Studio" ng-if="isShowSubMenu0">Est1 c15 studio</a>
+        <a href="#/141/auditorium" class="item auditorium" ng-if="isShowSubMenu0">Auditorium</a>
+        <a href="#/141/huddleroomcollab" class="item huddleCollab" ng-if="isShowSubMenu0">Salle huddle room collab</a>
+        <a href="#/141/miracast" class="item miracast" ng-if="isShowSubMenu0">Salle miracast microsoft</a>
+        <a href="#/141/est2f12" class="item est2f12" ng-if="isShowSubMenu0">Salle est2 f12</a>
+        <a href="#/141/est1f00" class="item est1f00" ng-if="isShowSubMenu0">Salle est1 f00</a>
+        <a href="#/141/nord1f06" class="item est2f12" ng-if="isShowSubMenu0">Salle nord1 f06</a>
+        <a href="#/141/est2f20" class="item est2f20" ng-if="isShowSubMenu0">Est2 f20</a>
+        <div class="item item-divider listManual" ng-click="showSubMenu1()">
+          Matériels<span class="ion-plus-round" ng-if="!isShowSubMenu1"></span><span ng-if="isShowSubMenu1" class="ion-minus-round"></span>
+        </div>
+        <a href="#/141/clickshare" class="item items-manual clickshare" ng-if="isShowSubMenu1">Clickshare</a>
+        <a href="#/141/huddlecrestron" class="item items-manual huddleCrestron" ng-if="isShowSubMenu1">Huddle room - crestron merucry</a>
+      </ion-list>
+  </ion-content>
+</ion-view>

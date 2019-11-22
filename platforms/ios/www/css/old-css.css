@@ -1,0 +1,709 @@
+div.nav-bar-block ion-header-bar.bar-stable.bar div.title.title-left{
+  left: 0 !important;
+}
+
+li#linkPadding1 a {
+  padding: 29% 200% 29% 5%;
+}
+
+li#linkPadding2 a {
+  padding: 30% 200% 34% 5%;
+}
+
+#selectObject, #selectType{
+  padding-top: 0;
+  padding-bottom:0;
+}
+
+#_label-3, #_label-5{
+  width: 20%;
+}
+
+.selectForm{
+  padding: 2%;
+  background-color: #ffffff;
+  width: 79%;
+  border: inherit;
+  border-left: 1px solid #dddddd;
+}
+
+div#seperateRow{
+  margin: 8% 0 8% 5%;
+}
+
+div.seperate{
+  border-top: 1px solid #dddddd;
+  margin-top: 4.5%;
+}
+
+h3#notMargin{
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+h4#contactPhone{
+  color: #ffffff;
+  text-align: center;
+}
+
+div#itemSupport{
+  width: 45%;
+  margin-left: 27%;
+}
+
+ion-side-menu{
+  margin-top: 10.567%;
+}
+
+#removeHide, #removeClass{
+  visibility: visible;
+  display: initial;
+}
+
+.ion-unlocked{
+  border-top: 1px solid #444444;
+  font-size: 0.9em;
+  margin-top: 5%;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.sizeUser{
+  margin-left: 20%;
+  margin-bottom: 5%;
+  width: 60%;
+}
+
+span.newDesc p img{
+  width: 100px;
+  height: 100px;
+}
+
+#logoHome{
+  margin-left: 30%;
+  width: 40%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+.newDesc p{
+  overflow: visible;
+  white-space: normal;
+}
+
+.newDesc table tbody tr td img{
+  width: 70%;
+}
+
+ion-item.submenu{
+  border-bottom: 1px solid #dddddd;
+}
+
+ion-item span.ion-plus-round, ion-item span.ion-minus-round{
+  float: right;
+}
+
+ion-item.submenu ul{
+  margin-top: 5%;
+}
+
+ion-item.submenu ul li{
+  float: left;
+  width: 100%;
+  padding: 10% 60% 10% 5%;
+  border-top: 1px solid #dddddd;
+}
+
+ion-item.submenu ul li a{
+  text-decoration: none;
+  color: #444444;
+}
+
+.formContact{
+  background-color: #ffffff;
+}
+
+#iframe{
+  width: 100%;
+  height: 600px;
+}
+
+ion-item.submenu ul li:last-child{
+  padding-bottom: 5%;
+}
+
+.listManual .ion-plus-round, .listManual .ion-minus-round{
+  float: right;
+}
+
+ion-scroll#scrollAuditorium[direction=y]{
+  height: 730vh;
+}
+
+ion-scroll#scrollClickshare[direction=y]{
+  height: 700vh;
+}
+
+ion-scroll#scrollNews[direction=y]{
+  height: 570vh;
+}
+
+ion-scroll#scrollHuddleCrestron[direction=y]{
+  height: 610vh;
+}
+
+ion-scroll#scrollEst1f00[direction=y]{
+  height: 475vh;
+}
+
+ion-scroll#scrollNord1F06[direction=y]{
+  height: 433vh;
+}
+
+ion-scroll#scrollStudio[direction=y]{
+  height: 495vh;
+}
+
+ion-scroll#scrollParenthese[direction=y]{
+  height: 480vh;
+}
+
+ion-scroll#scrollEst2f20[direction=y]{
+  height: 435vh;
+}
+
+ion-scroll#scrollHuddleRoom[direction=y]{
+  height: 625vh;
+}
+
+ion-scroll#scrollMiracastMicrosoft[direction=y]{
+  height: 520vh;
+}
+
+ion-scroll#scrollEst2f12[direction=y]{
+  height: 522vh;
+}
+
+#homeConnect ion-scroll.scrollY[direction=y]{
+  height: 439vh;
+}
+
+ion-scroll#listManual[direction=y]{
+  height: 552vh;
+}
+
+ion-scroll#listRestau[direction=y]{
+  height: 691vh;
+}
+
+ion-scroll.reviewScroll[direction=y]{
+  height: 600vh;
+}
+
+ion-scroll#transit[direction=y]{
+  height: 250vh;
+}
+
+ion-scroll#formContact[direction=y]{
+  height: 430vh;
+}
+
+div.item.item-avatar{
+  text-align: center;
+  padding-left: 0;
+}
+
+.imgDetails{
+  width: 100%;
+  height: 7%;
+}
+
+.pictos{
+  width: 30%;
+}
+
+div.gm-style-iw div div{
+  text-align: center;
+
+}
+
+div.gm-style-iw div div h6,div.gm-style-iw div div img{
+  display: inline-block;
+}
+
+.pictos:last-child{
+  margin-left: 2%;
+}
+
+.uber{
+  background-color: #000000;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+.uber img{
+  float: left;
+  width: 15%;
+  margin-right: 5%;
+}
+
+.g7{
+  text-align: center;
+}
+
+.g7 img{
+  float: left;
+  width: 15%;
+  margin-right: 5%;
+}
+
+a.item.g7 div{
+  vertical-align: middle;
+  display: inherit;
+  margin-top: 5%;
+  text-align: center;
+}
+
+a.item.uber div{
+  vertical-align: middle;
+  display: inherit;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#openClose{
+  margin-top: 5px;
+}
+
+img.profilePhoto{
+  width: 20%;
+}
+
+p.textReview{
+  overflow: visible;
+  white-space: normal;
+}
+
+div.row.relativeTimeRating{
+  margin-top: 1%;
+  border-top: solid 1px #dddddd;
+}
+
+p.reviewRating{
+  float: left;
+}
+
+p.relativeTimeReview{
+  float: right;
+}
+
+div.row.detailsRestau{
+  font-size: 1.25em;
+  margin-top: -1.5%;
+  padding-top: 5px;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.ion-ios-telephone{
+  font-size: 1.3em;
+}
+
+#map{
+  width: 100%;
+  height: 400px;
+}
+
+.topHome{
+  margin-top: 10%;
+}
+
+a.item-home{
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.borderRadius{
+  border-radius: 5px;
+}
+
+/**** + ****/
+.title{
+  text-transform: uppercase;
+}
+
+.background-info {
+  color: #000000;
+  margin: 15% 3% 2% 3%;
+  padding: 3%;
+  border-radius: 5px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.4);
+}
+
+.backgroundBody{
+  background: url('../img/bg-pattern.png'), #db3552;
+  background: url('../img/bg-pattern.png'), -webkit-linear-gradient(#d51366,#db3552);
+  background: url('../img/bg-pattern.png'), linear-gradient(#d51366, #db3552);
+  box-shadow: none;
+  height: 3000px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-videlio{
+  width: 50%;
+  margin-top: 25%;
+  margin-left: 27%;
+}
+
+#btn-home{
+  text-transform: capitalize;
+  margin-top: 12%;
+}
+
+.pane#tabs-height{
+  height: auto;
+}
+
+.tabs-dark a.tab-item{
+  font-size: 2em;
+  color: #ff006e;
+}
+.topManual{
+  margin-top: 11.75%;
+}
+
+.transports{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/transit.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.manual{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/manual.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.gps1{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/remoteControl.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.clickshare{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/clickshare.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.parenthese{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/parenthese.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.c15Studio{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/c15.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.auditorium{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/auditorium.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.huddleCollab{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/huddleCollab.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.miracast{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/miracast.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.est2f12{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/est2f12.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.est1f00, .est2f20{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/est1f00.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.huddleCrestron{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/huddleCrestron.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items-manual{
+  font-size: 2em;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 14.15% 0;
+  border-width: 0;
+}
+
+.item-manual, .item-gps1{
+  font-size: 2em;
+  color: #ffffff !important;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 25% 0;
+  border-width: 0;
+}
+
+.topClickshare{
+  margin-top: 15%;
+}
+
+.topClickshare .item-avatar, .clickshareUp .item-avatar {
+  padding: 4% 0;
+  text-align: center;
+  color: #444444;
+}
+
+.clickshareUp {
+  margin-top: 5%;
+}
+
+.topClickshare .item-avatar h2, .clickshareUp .item-avatar h2{
+  font-size: 1.5em;
+}
+
+.item-text-wrap p{
+  margin-bottom: 5%;
+}
+
+a.item-text-wrap{
+  font-size: 1.2em;
+}
+
+.overflow{
+  word-wrap: break-word;
+}
+
+.onOff{
+  width: 10%;
+}
+
+.mark{
+  width: 15%;
+}
+
+.stop{
+  width: 20%;
+}
+
+.half{
+  width: 50%;
+}
+
+#listManual div.list div.listManual{
+  padding:5%;
+  font-size: 1.5em;
+}
+
+a#topButton{
+  z-index: 9999;
+  opacity: 0.8;
+  top: 44.8%;
+  left: 3%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  padding: 2%;
+  text-align: center;
+  background-color: #ffffff;
+  color: #444444;
+  border-radius: 50%;
+}
+
+div.item-image img.jabra{
+  width: 50%;
+}
+
+div.item-image img.dalleCrestron{
+  width:70%;
+}
+
+.clickshareLink{
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 14.15% 0;
+  border-width: 0;
+}
+
+.clickshareLink  a {
+  text-decoration: none;
+  color: #ffffff !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/**** + ****/
+
+.signInSignUp{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/signIn-signUp.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.news{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/news.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.gps{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/remoteControl.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.commodites{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/iconCommodites.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.contactUs{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url('../img/contactUs.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.item-home{
+  text-align: center;
+  padding: 14.15% 0;
+}
+
+.button.button-block{
+  width: 95%;
+  margin-left: 2.666%;
+}
+
+.bar .title.title-left, .title{
+  text-align: center;
+}
+
+.border{
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2.5%;
+}
+
+.or{
+  margin: 0;
+  text-align: center;
+}
+
+.icon.ion-navicon{
+  color: #ffffff;
+}
+
+.topSignIn{
+  margin-top: 11%
+}
+
+.topLogin{
+  margin-top: 15%
+}
+
+span.ion-person{
+  font-size: 3em;
+}
+
+.popup-buttons .button.button-positive{
+  background-color: #4D4E53;
+}
+
+.topPasswordForget{
+  border-radius: 5px;
+  width: 95%;
+  margin-left: 3%;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.6);
+}
+
+.topPasswordForget a, .topPasswordForget div{
+  text-transform: capitalize;
+  color: #444444;
+}
+
+.topPasswordForget div{
+  text-decoration: underline;
+}
+
+.topPasswordForget div[disabled]{
+  text-decoration: line-through;
+}

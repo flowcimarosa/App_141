@@ -1,0 +1,17 @@
+<ion-view class="" view-title="Restaurations">
+  <ion-content ng-controller="CommoditesCtrl">
+    <div id="map"></div>
+    <div class="list listCommodites">
+      <div class="item item-divider">
+        {{results.length}} restaurants.
+      </div>
+      <a ng-repeat="result in results" ui-sref="141.details({placeID: result.place_id, name: name})" ui-sref-active="activated" class="item item-thumbnail-left" id="{{result.photos}}">
+        <img ng-repeat="(val, key) in result.photos" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference={{key.photo_reference}}&key=AIzaSyAbBnTg2C8wC_cclHY4U1AGIYVIOJMDveY" />
+        <img src="img/icon.png" ng-show="!result.photos" alt="">
+        <h2 id="commodites">{{result.name}}</h2>
+        <p>{{result.vicinity}} <br> <span ng-if="result.opening_hours ? openClose = 'Fermé' : openClose = 'Ouvert'">Rating: {{result.rating}}/5 | {{openClose}}</span></p>
+
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

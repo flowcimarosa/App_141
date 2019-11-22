@@ -1,0 +1,55 @@
+<io-view>
+  <ion-content ng-controller="HomeCtrl">
+    <ion-side-menus enable-menu-with-back-views="true">
+      <ion-side-menu-content>
+        <ion-nav-bar class="bar-dark">
+          <ion-nav-back-button>
+          </ion-nav-back-button>
+
+          <ion-nav-buttons side="right">
+            <button class="button button-icon button-clear ion-navicon-round" menu-toggle="right" ng-click="changeIcon()">
+            </button>
+          </ion-nav-buttons>
+        </ion-nav-bar>
+
+        <ion-header-bar class="bar bar-header bar-dark">
+          <h1 class="title">App-141</h1>
+        </ion-header-bar>
+
+        <div class="list topHome">
+          <a ng-click="signOut()" class="item item-home signInSignUp">{{ signIn }}</a>
+          <a href="#/news" class="item item-home news">Actualités</a>
+          <a href="#" class="item item-home gps">Votre trajet dans le batîment</a>
+          <a href="#" class="item item-home commodites">Commodités</a>
+          <a href="#/contactUs" class="item item-home contactUs">Nous contacter</a>
+        </div>
+      </ion-side-menu-content>
+
+      <ion-side-menu side="right">
+        <ion-header-bar class="bar-dark">
+          <h1 class="title">Menu</h1>
+        </ion-header-bar>
+
+        <ion-content>
+          <ion-list>
+            <ion-item ng-click="signOut()">
+              {{ signIn }}
+            </ion-item>
+            <ion-item href="#/news">
+              Actualités
+            </ion-item>
+            <ion-item href="#/">
+              GPS Batîment
+            </ion-item>
+            <ion-item href="#/">
+              Commodités
+            </ion-item>
+            <ion-item href="#/contactUs">
+              Nous Contacter
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-side-menu>
+    </ion-side-menus>
+  </ion-content>
+</io-view>
